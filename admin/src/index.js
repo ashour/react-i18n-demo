@@ -5,7 +5,6 @@ import { Provider } from 'react-redux'
 import App from './components/App'
 import store from './services/store'
 
-import './styles/index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
