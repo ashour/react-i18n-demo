@@ -8,13 +8,13 @@ There are two apps included with this demo. One is an admin and the other is a f
 - Clone the repo
 - `cd {repo_root}/admin`
 - `npm install` (or `yarn`)
-- `npm start` (or `yarn start`)
+- `npm run start` (or `yarn start`)
 
 ## Front Installation
 - Clone the repo
 - `cd {repo_root}/front`
 - `npm install` (or `yarn`)
-- `npm start` (or `yarn start`)
+- `npm run start` (or `yarn start`)
 
 
 This two apps were bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

@@ -6,7 +6,7 @@ This demo goes along with a [PhraseApp blog article about React i18n](https://ex
 - Clone the repo
 - `cd {repo_root}/front`
 - `npm install` (or `yarn`)
-- `npm start` (or `yarn start`)
+- `npm run start` (or `yarn start`)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
