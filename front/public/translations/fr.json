@@ -1,0 +1,19 @@
+{
+    "translation": {
+        "app_name": "μveez",
+        "a_react_demo": "une démo d'i18n React",
+        "directors": "Réalisateurs",
+        "movies": "Films",
+        "language": "Langue",
+        "featured_director": "Réalisateur en vedette",
+        "featured_director_plural": "Réalisateurs en vedette",
+        "published_on": "Publié le {{date, year:numeric;month: short}}",
+        "published_on_date_only": "{{date, year:numeric;month:long}}",
+        "image_of_director": "Image de {{director}}",
+        "quote_of_the_day": "Citation du jour",
+        "quote_year": "{{date, year:numeric}}",
+        "featured_movies": "Films en vedette",
+        "directed_by": "Réalisé par {{director}}",
+        "footer_copy": "Cette démo a été faite par <a href=\"{{author_url}}\">Mohammad Ashour</a> avec <a href=\"{{react_url}}\">React</a> et est publiée sous <a href=\"{{license_url}}\">licence MIT</a>. Il a été créé pour un <a href=\"{{article_url}}\">article de blog PhraseApp</a>. Les images et synopsis sont la propriété de leurs propriétaires respectifs, et ont été acquis à partir des websites de l'IMDB et du Dubai Film Festival."
+    }
+}

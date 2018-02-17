@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "is_featured": true,
+        "published_on": "2008-07",
+        "title": "فارس الظلام",
+        "synopsis": "بها و إعلان وقوعها،. لان حاول حكومة بالتوقيع لم, غرّة، الشمل وسمّيت بل بال. أسر مع وبدأت إحكام الطرفين, من عرض قائمة عشوائية. كما شرسة جديدة البشريةً أن, بأضرار وباستثناء ويكيبيديا، دنو قد. حول بقعة كنقطة أن, قد اليها المشتّتون دون.",
+        "thumbnail_url": "/img/movies/dark_knight_tn.jpg",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+        "director": {
+            "id": 1,
+            "name": "كرستوفر نولان"
+        }
+    }, {
+        "id": 2,
+        "is_featured": true,
+        "published_on": "2009-02",
+        "title": "واحد ـ صفر",
+        "synopsis": "تدور أحداث هذا الفيلم في إطار درامي لسبعة شخصيات مختلفة منها سيدة تبحث عن حياتها من جديد من خلال طلاق معلق في المحاكم وتحدث هذه الأحداث كلها في يوم المباراة النهائية لمصر مع الكاميرون بكأس الأمم الإفريقية في غانا 2008، وتتوالى الأحداث.",
+        "thumbnail_url": "/img/movies/one_zero_tn.jpg",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDcxMGM4ZDAtZDYzMi00MzI3LWI3NDAtZjBkN2QwY2YyYmRjXkEyXkFqcGdeQXVyMjg0MzMwNzg@._V1_SY1000_CR0,0,698,1000_AL_.jpg",
+        "director": {
+            "id": 5,
+            "name": "كاملة أبو ذكري"
+        }
+    }, {
+        "id": 3,
+        "is_featured": false,
+        "published_on": "2004-12",
+        "title": "الحياة المائية مع ستيف زيسو",
+        "synopsis": "بها و إعلان وقوعها،. لان حاول حكومة بالتوقيع لم, غرّة، الشمل وسمّيت بل بال. أسر مع وبدأت إحكام الطرفين, من عرض قائمة عشوائية. كما شرسة جديدة البشريةً أن, بأضرار وباستثناء ويكيبيديا، دنو قد. حول بقعة كنقطة أن, قد اليها المشتّتون دون.",
+        "thumbnail_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_SY1000_CR0,0,684,1000_AL_.jpg",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_SY1000_CR0,0,684,1000_AL_.jpg",
+        "director": {
+            "id": 2,
+            "name": "وس اندرسون"
+        }
+    }
+]

@@ -1,0 +1,42 @@
+@media only screen and (min-width: 768px) {
+    .dropdown-menu-right {
+        right: 0;
+        left: auto;
+    }
+
+    [dir="rtl"] .navbar-expand-md .navbar-nav .dropdown-menu-right {
+        right: auto;
+        left: 0;
+    }
+}
+
+[dir="rtl"] .mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important; 
+}
+
+[dir="rtl"] .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important; 
+}
+
+[dir="rtl"] .navbar-nav .nav-link + .nav-link {
+    margin-right: 0;
+}
+
+[dir="rtl"] .navbar-nav .nav-item + .nav-item {
+    margin-right: 0;
+}
+
+[dir="rtl"] .card-body blockquote {
+    border: none;
+}
+
+.globe-icon {
+    position: relative;
+    top: 2px;
+}
+[dir="rtl"] .globe-icon {
+    top: 0;
+    padding-left: 4px;
+}

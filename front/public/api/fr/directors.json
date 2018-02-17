@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "is_featured": true,
+        "name": "Christopher Nolan",
+        "image_url": "/img/directors/nolan.jpg"
+    },
+    {
+        "id": 2,
+        "is_featured": false,
+        "name": "Wes Anderson",
+        "image_url": "/img/directors/anderson.jpg"
+    },
+    {
+        "id": 3,
+        "is_featured": true,
+        "name": "Michel Gondry",
+        "image_url": "/img/directors/gondry.jpg"
+    },
+    {
+        "id": 4,
+        "is_featured": true,
+        "name": "Robert Bresson",
+        "image_url": "/img/directors/bresson.jpg"
+    },
+    {
+        "id": 5,
+        "is_featured": true,
+        "name": "Kamla Abou Zekry",
+        "image_url": "/img/directors/abu_zekry.jpg"
+    }
+]

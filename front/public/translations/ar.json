@@ -1,0 +1,19 @@
+{
+    "translation": {
+        "app_name": "ميوڤيز",
+        "a_react_demo": "عرض تدويل React",
+        "directors": "مخرجين",
+        "movies": "أفلام",
+        "language": "اللغة",
+        "featured_director": "أبرز المخرجون",
+        "featured_director_plural": "أبرز المخرجون",
+        "published_on": "نشر في {{date, year:numeric;month:long}}",
+        "published_on_date_only": "{{date, year:numeric;month:long}}",
+        "image_of_director": "صورة {{director}}",
+        "quote_of_the_day": "مقولة اليوم",
+        "quote_year": "{{date, year:numeric}}",
+        "featured_movies": "أبرز الأفلام",
+        "directed_by": "إخراج {{director}}",
+        "footer_copy": "هذا التطبيق هو عرض من صنع <a href=\"{{author_url}}\">محمد عاشور</a> و منشور تحت <a href=\"{{license_url}}\">رخصة ام.آي.تي.</a> و قد بني هذا العرض ليرفق <a href=\"{{article_url}}\">مقالة علي مدونة PhraseApp</a>. حقوق النشر لدى الصور و ملخصات الأفلام هي ملك أصحابها، و تم الحصول عليها من مواقع IMDB و مهرجان دبي السينمائي الدولي."
+    }   
+}

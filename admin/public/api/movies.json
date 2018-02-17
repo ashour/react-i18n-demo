@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "is_featured": true,
+        "published_on": "2008-07",
+        "title_ar": "فارس الظلام",
+        "title_en": "The Dark Knight",
+        "title_fr": "Le Chevalier Noir",
+        "director": {
+            "id": 1,
+            "name": "Christopher Nolan"
+        }
+    },
+    {
+        "id": 2,
+        "is_featured": true,
+        "published_on": "2009-02",
+        "title_ar": "واحد ـ صفر",
+        "title_en": "One-Zero",
+        "title_fr": "Un-Zéro",
+        "director": {
+            "id": 5,
+            "name": "Kamla Abu Zekry"
+        }
+    }
+    ,
+    {
+        "id": 3,
+        "is_featured": false,
+        "published_on": "2004-12",
+        "title_ar": "الحياة المائية مع ستيف زيسو",
+        "title_en": "The Life Aquatic with Steve Zissou",
+        "title_fr": "La vie aquatique avec Steve Zissou",
+        "director": {
+            "id": 2,
+            "name": "Wes Anderson"
+        }
+    }
+]

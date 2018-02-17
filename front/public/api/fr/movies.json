@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "is_featured": true,
+        "published_on": "2008-07",
+        "title": "Le Chevalier Noir",
+        "synopsis": "Atque in avidi et praefecti corpore militares saepe ad primum hirsutis avidi divertebat usque et qui eius haec avidi avidi militares qui primum divertebat morbosum post resticulis atque haec haec morati proximo usque divaricaturn morbosum sunt ad spiramento innexis et morati morbosum spiramento in in divaricaturn in militares divertebat eius turbarum morbosum Montium usque post innexis senem corpore senem ullo sine turbarum ullo in saepe senem militares primum proximo traxere Montium turbarum ullo divertebat praefecti sunt hirsutis morbosum divertebat divertebat eius senem et saepe qui divertebat qui in innexis sine traxere militares qui praefecti Montium divertebat ullo morbosum innexis sine.",
+        "thumbnail_url": "/img/movies/dark_knight_tn.jpg",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+        "director": {
+            "id": 1,
+            "name": "Christopher Nolan"
+        }
+        },
+        {
+        "id": 2,
+        "is_featured": true,
+        "published_on": "2009-02",
+        "title": "Un-Zéro",
+        "synopsis": "Atque in avidi et praefecti corpore militares saepe ad primum hirsutis avidi divertebat usque et qui eius haec avidi avidi militares qui primum divertebat morbosum post resticulis atque haec haec morati proximo usque divaricaturn morbosum sunt ad spiramento innexis et morati morbosum spiramento in in divaricaturn in militares divertebat eius turbarum morbosum Montium usque post innexis senem corpore senem ullo sine turbarum ullo in saepe senem militares primum proximo traxere Montium turbarum ullo divertebat praefecti sunt hirsutis morbosum divertebat divertebat eius senem et saepe qui divertebat qui in innexis sine traxere militares qui praefecti Montium divertebat ullo morbosum innexis sine.",
+        "thumbnail_url": "/img/movies/one_zero_tn.jpg",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDcxMGM4ZDAtZDYzMi00MzI3LWI3NDAtZjBkN2QwY2YyYmRjXkEyXkFqcGdeQXVyMjg0MzMwNzg@._V1_SY1000_CR0,0,698,1000_AL_.jpg",
+        "director": {
+            "id": 5,
+            "name": "Kamla Abou Zekry"
+        }
+    }, {
+        "id": 3,
+        "is_featured": false,
+        "published_on": "2004-12",
+        "title": "La vie aquatique avec Steve Zissou",
+        "synopsis": "Atque in avidi et praefecti corpore militares saepe ad primum hirsutis avidi divertebat usque et qui eius haec avidi avidi militares qui primum divertebat morbosum post resticulis atque haec haec morati proximo usque divaricaturn morbosum sunt ad spiramento innexis et morati morbosum spiramento in in divaricaturn in militares divertebat eius turbarum morbosum Montium usque post innexis senem corpore senem ullo sine turbarum ullo in saepe senem militares primum proximo traxere Montium turbarum ullo divertebat praefecti sunt hirsutis morbosum divertebat divertebat eius senem et saepe qui divertebat qui in innexis sine traxere militares qui praefecti Montium divertebat ullo morbosum innexis sine.",
+        "thumbnail_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_SY1000_CR0,0,684,1000_AL_.jpg",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_SY1000_CR0,0,684,1000_AL_.jpg",
+        "director": {
+            "id": 2,
+            "name": "Wes Anderson"
+        }
+    }
+]

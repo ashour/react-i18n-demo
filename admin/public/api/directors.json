@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name_ar": "كرستوفر نولان",
+        "name_en": "Christopher Nolan",
+        "name_fr": "Christopher Nolan"
+    },
+    {
+        "id": 2,
+        "name_ar": "ميشيل جوندري",
+        "name_en": "Michael Gondry",
+        "name_fr": "Michael Gondry"
+    },
+    {
+        "id": 3,
+        "name_ar": "وس اندرسون",
+        "name_en": "Wes Anderson",
+        "name_fr": "Wes Anderson"
+    },
+    {
+        "id": 4,
+        "name_ar": "روبرت بريسون",
+        "name_en": "Robert Bresson",
+        "name_fr": "Robert Bresson"
+    },
+    {
+        "id": 5,
+        "name_ar": "كاملة أبو ذكري",
+        "name_en": "Kamla Abu Zekry",
+        "name_fr": "Kamla Abou Zekry"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "translation": {
+        "app_name": "μveez",
+        "a_react_demo": "a React i18n demo",
+        "directors": "Directors",
+        "movies": "Movies",
+        "language": "Language",
+        "published_on": "Published on {{date, year:numeric;month:long}}",
+        "published_on_date_only": "{{date, year:numeric;month:long}}",
+        "featured_director": "Featured Director",
+        "featured_director_plural": "Featured Directors",
+        "image_of_director": "Image of {{director}}",
+        "quote_of_the_day": "Quote of the day",
+        "quote_year": "{{date, year:numeric}}",
+        "featured_movies": "Featured Movies",
+        "directed_by": "Directed by {{director}}",
+        "footer_copy": "This demo was made by <a href=\"{{author_url}}\">Mohammad Ashour</a> with <a href=\"{{react_url}}\">React</a> and is released under the <a href=\"{{license_url}}\">MIT license</a>. It was made for a <a href=\"{{article_url}}\">PhraseApp blog article.</a> Images and synopses are copyright of their respective owners, and were acquired from the IMDB and the Dubai Film Festival websites."
+    }   
+}
