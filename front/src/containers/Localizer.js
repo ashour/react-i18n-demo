@@ -7,7 +7,7 @@ import { setUiLocale } from '../services/i18n'
 import { switchHtmlLocale, getLocaleFromPath } from '../services/i18n/util'
 import { changeLocale, setUiTranslationsLoaded, setUiTranslationsLoading } from '../actions'
 
-class SwitchLocaleOnHistoryChange extends Component {
+class Localizer extends Component {
     constructor(props) {
         super(props)
 
@@ -49,5 +49,5 @@ export default withRouter(
             setUiTranslationsLoaded,
             setUiTranslationsLoading,
         }
-    )(SwitchLocaleOnHistoryChange)
+    )(Localizer)
 )

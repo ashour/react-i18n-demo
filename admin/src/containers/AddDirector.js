@@ -3,24 +3,20 @@ import React, { Component } from 'react'
 import {
     Card,
     Form, 
-    Label,
-    Input,
     Button,
     CardBody,
     CardTitle,
-    FormGroup,
 } from 'reactstrap'
 
 import { addDirector, setNewDirector } from '../actions'
+import AddDirectorTranslation from '../components/AddDirectorTranslation'
 
 class AddDirector extends Component {
-    _onChange(e) {
-        this.props.setNewDirector({
-            [e.target.name]: e.target.value
-        })
+    _updateTranslation(key, value) {
+        this.props.setNewDirector({ [key]: value })
     }
 
-    _onClick(e) {
+    _addDirector(e) {
         const { name_ar, name_en, name_fr } = this.props
 
         if (name_ar && name_en && name_fr) {
@@ -32,41 +28,32 @@ class AddDirector extends Component {
         return (
             <Card style={this.props.style}>
                 <CardBody>
-                    <CardTitle>Add Director</CardTitle>
+                    <CardTitle>Add Director with Name</CardTitle>
 
                     <Form inline>
-                        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                            <Label for="name_ar" className="mr-sm-2">Name (Arabic)</Label>
-                            
-                            <Input
-                                type="text" name="name_ar" id="name_ar"
-                                value={this.props.name_ar}
-                                dir="rtl"
-                                onChange={e => this._onChange(e)}
-                            />
-                        </FormGroup>
+                        <AddDirectorTranslation
+                            dir="rtl"
+                            name="name_ar"
+                            label="Arabic"
+                            value={this.props.name_ar}
+                            onChange={value => this._updateTranslation("name_ar", value)}
+                        />
 
-                        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                            <Label for="name_en" className="mr-sm-2">Name (English)</Label>
-                            
-                            <Input
-                                type="text" name="name_en" id="name_en"
-                                value={this.props.name_en}
-                                onChange={e => this._onChange(e)}
-                            />
-                        </FormGroup>
+                        <AddDirectorTranslation
+                            name="name_en"
+                            label="English"
+                            value={this.props.name_en}
+                            onChange={value => this._updateTranslation("name_en", value)}
+                        />
 
-                        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                            <Label for="name_fr" className="mr-sm-2">Name (French)</Label>
-                            
-                            <Input
-                                type="text" name="name_fr" id="name_fr"
-                                value={this.props.name_fr}
-                                onChange={e => this._onChange(e)}
-                            />
-                        </FormGroup>
+                        <AddDirectorTranslation
+                            name="name_fr"
+                            label="French"
+                            value={this.props.name_fr}
+                            onChange={value => this._updateTranslation("name_fr", value)}
+                        />
 
-                        <Button onClick={() => this._onClick()}>Add</Button>
+                        <Button onClick={() => this._addDirector()}>Add</Button>
                     </Form>
                 </CardBody>
             </Card>
@@ -74,18 +61,14 @@ class AddDirector extends Component {
     }
 }
 
-const mapStateToProps = state => {
-    const { name_ar, name_en, name_fr } = state.directors.newDirector
-
-    return { name_ar, name_en, name_fr }
-}
-
-const mapDispatchToProps = {
-    addDirector,
-    setNewDirector,
-}
-
 export default connect(
-    mapStateToProps,
-    mapDispatchToProps
+    state => {
+        const { name_ar, name_en, name_fr } = state.directors.newDirector
+    
+        return { name_ar, name_en, name_fr }
+    },
+    {
+        addDirector,
+        setNewDirector,
+    }
 )(AddDirector)

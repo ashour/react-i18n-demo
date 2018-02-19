@@ -1,5 +1,7 @@
 import _ from 'lodash'
 
+import { defaultOnUndefinedOrNull } from '../services/util'
+
 const INITIAL_STATE = {
     lastId: 0,
     directors: [],
@@ -18,9 +20,9 @@ export default (state = INITIAL_STATE, action) => {
             return {
                 ...state,
                 newDirector: {
-                    name_ar: action.name_ar || state.newDirector.name_ar,
-                    name_en: action.name_en || state.newDirector.name_en,
-                    name_fr: action.name_fr || state.newDirector.name_fr,
+                    name_ar: defaultOnUndefinedOrNull(action.name_ar, state.newDirector.name_ar),
+                    name_en: defaultOnUndefinedOrNull(action.name_en, state.newDirector.name_en),
+                    name_fr: defaultOnUndefinedOrNull(action.name_fr, state.newDirector.name_fr),
                 }
             }
 

@@ -3,17 +3,17 @@ import React, { Component } from 'react'
 import { Switch, BrowserRouter as Router } from 'react-router-dom'
 
 import routes from '../routes'
+import Localizer from './Localizer'
 import DeepRoute from '../components/DeepRoute'
 import AppNavbar from '../components/AppNavbar'
 import AppFooter from '../components/AppFooter'
-import SwitchLocaleOnHistoryChange from '../components/SwitchLocaleOnHistoryChange'
 
 class App extends Component {
     render() {
         return (
             <div style={{paddingTop: "80px"}}>
                 <Router>
-                    <SwitchLocaleOnHistoryChange>
+                    <Localizer>
                         {this.props.uiTranslationsLoaded &&
                             <div>
                                 <AppNavbar />
@@ -36,7 +36,7 @@ class App extends Component {
                                 <AppFooter />
                             </div>
                         }
-                    </SwitchLocaleOnHistoryChange>
+                    </Localizer>
                 </Router>
             </div>
         )
