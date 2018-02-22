@@ -1,11 +1,17 @@
 import React from 'react'
-import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap'
+import {
+    Card,
+    CardImg,
+    CardBody,
+    CardText,
+    CardTitle,
+} from 'reactstrap'
 
 import { t } from '../services/i18n'
 import LocalizedLink from '../containers/LocalizedLink'
 
 function synopsis (str, length = 250) {
-    const suffix = str.length > length ? '...' : ''
+    const suffix = str.length > length ? '…' : ''
 
     return (str.substring(0, length) + suffix).split("\n\n")
 }

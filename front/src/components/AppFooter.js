@@ -11,7 +11,7 @@ export default () => (
                     author_url: 'https://ashour.ca',
                     react_url: 'https://reactjs.org/',
                     license_url: 'https://github.com/ashour/react-i18n-demo/blob/master/LICENSE',
-                    article_url: '#'
+                    article_url: 'https://phraseapp.com/blog/posts/a-magazine-app-with-i18n-in-react/ '
             })}} />
         </Nav>
     </Navbar>

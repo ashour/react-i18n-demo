@@ -1,5 +1,5 @@
-import { connect } from 'react-redux'
 import { Component } from 'react'
+import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 
 import { locales } from '../config/i18n'
@@ -18,6 +18,13 @@ class Localizer extends Component {
         })
     }
 
+    /**
+     * Set the lang and dir attributes in the <html> DOM element, and
+     * initialize our i18n UI library.
+     * 
+     * @param {string} newLocale 
+     * @param {bool} force 
+     */
     setLocale(newLocale, force = false) {
         if (force || newLocale !== this.props.locale) {
             this.props.changeLocale(newLocale)

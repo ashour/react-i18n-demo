@@ -8,7 +8,10 @@ export default () => (
                 This demo was made by <a href="https://ashour.ca">Mohammad Ashour</a> with
                 {' '}<a href="https://reactjs.org/">React</a> and is released under the
                 {' '}<a href="https://github.com/ashour/react-i18n-demo/blob/master/LICENSE">MIT license</a>.
-                {' '}It was made for a <a href="#">PhraseApp blog article.</a>
+                {' '}It was made for a{' '}
+                    <a href="https://phraseapp.com/blog/posts/a-magazine-app-with-i18n-in-react/">
+                        PhraseApp blog article.
+                    </a>
                 {' '}Images and synopses are copyright of their respective owners, and were
                 {' '}acquired from the IMDB and the Dubai Film Festival websites.
             </p>
