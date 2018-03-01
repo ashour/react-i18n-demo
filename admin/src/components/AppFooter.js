@@ -9,7 +9,7 @@ export default () => (
                 {' '}<a href="https://reactjs.org/">React</a> and is released under the
                 {' '}<a href="https://github.com/ashour/react-i18n-demo/blob/master/LICENSE">MIT license</a>.
                 {' '}It was made for a{' '}
-                    <a href="https://phraseapp.com/blog/posts/a-magazine-app-with-i18n-in-react/">
+                    <a href="https://phraseapp.com/blog/posts/react-i18n-app/">
                         PhraseApp blog article.
                     </a>
                 {' '}Images and synopses are copyright of their respective owners, and were
