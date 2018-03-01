@@ -1,6 +1,6 @@
 # μvees - a React i18n Demo
 
-This demo goes along with a [PhraseApp blog article about React i18n](https://example.com).
+This demo goes along with a [PhraseApp blog article about React i18n](https://phraseapp.com/blog/posts/react-i18n-app/).
 
 There are two apps included with this demo. One is an admin and the other is a front-facing app.
 
