@@ -1,3 +1,7 @@
+**⚠️ This repo is no longer maintained! Please visit https://github.com/PhraseApp-Blog/react-i18n-demo for the up-to-date repo.**
+
+---
+
 # μvees - a React i18n Demo
 
 This demo goes along with a [PhraseApp blog article about React i18n](https://phraseapp.com/blog/posts/react-i18n-app/).
